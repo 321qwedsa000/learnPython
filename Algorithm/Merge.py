@@ -9,7 +9,6 @@ def merge(x : list,y : list):
         else:
             ans.append(y[j])
             j += 1
-    print(ans)
     return ans
 
 
