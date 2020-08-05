@@ -26,3 +26,4 @@ if __name__ == "__main__":
     print(a)
     mergeSort(a)
     print(a)
+
