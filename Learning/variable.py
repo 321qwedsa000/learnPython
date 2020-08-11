@@ -1,12 +1,13 @@
-def main():
+def main() -> None:
     varInt = 10
-    varDouble = 10.0
-    varBool = True
+    varFloat = 10.0
+    varBool = True 
     varStr = "string"
-    print("{varInt}\t{varDouble}\t{varBool}\t{varStr}".format
+    print("varInt     varFloat     varBool     varStr")
+    print("{varInt}     {varFloat}     {varBool}     {varStr}".format
     (
         varInt=varInt,
-        varDouble=varDouble,
+        varFloat=varFloat,
         varBool=varBool,
         varStr=varStr
     ))
